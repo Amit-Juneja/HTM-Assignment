@@ -54,14 +54,22 @@ This project uses [`next/Image`](https://nextjs.org/docs/pages/building-your-app
 ## Hotel Details (Uncollapsed view)
 ![Screenshot from 2024-04-07 15-47-43](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/f28afb79-138c-4568-85a0-94e0f99ecc70)
 
-## Search Hotel funtionality
+## Search Hotel functionality
 ![Screenshot from 2024-04-07 15-48-13](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/16caf63c-dfcb-4eb5-80e0-391464f0ccf4)
 
 ![Screenshot from 2024-04-07 15-48-47](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/ae876fcf-cc90-4d8d-adca-35311714a6f1)
 
+## No Hotels Found
+
+![image](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/4bc92f92-5a35-4ca6-a2db-35043078f035)
+
+
 ## Mobile View Same functionality
 
 
-https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/92b57962-90b1-44f8-8353-2d0092ea5bf8
+https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/f2bb2a3e-ef18-4f1c-a409-0fa721213444
+
+
+
 
 
