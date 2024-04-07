@@ -1,5 +1,5 @@
 import { Box, Button, Tooltip, Typography } from "@mui/material";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 import hotels from "../data.json";
 import deeptracksOne from "../public/Deep-Tracks-1.jpg";
@@ -8,7 +8,11 @@ import chaletmurasakiTwo from "../public/chaletmurasaki-02.jpg";
 import chaletmurasakiThree from "../public/chaletmurasaki-03.jpg";
 import chaletmurasaki from "../public/chaletmurasaki.jpg";
 
-export const HOTELS =
+type HotelImages = {
+  [key: string]: StaticImageData;
+};
+
+export const HOTELS: HotelImages =
 {
   "Chalet Murasaki": chaletmurasaki,
   "Chalet Murasaki a": chaletmurasakiTwo,
