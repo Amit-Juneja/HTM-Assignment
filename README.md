@@ -38,3 +38,30 @@ This project uses [`next/Image`](https://nextjs.org/docs/pages/building-your-app
 
 ## Screenshots
 
+## Desktop View
+![image](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/d5ba4193-ff58-4b1e-a3f1-e9bea83b87f6)
+
+![image](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/d6a81916-3f51-4987-a691-7f240f347d14)
+
+## Footer Links
+![Screenshot from 2024-04-07 15-45-28](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/d922d08e-fe96-4bef-b416-46686aacdbf0)
+
+![Screenshot from 2024-04-07 15-46-13](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/c76912c1-0468-463d-91de-3a7dd07c5582)
+
+## Hotel Details (Collapsed view)
+![Screenshot from 2024-04-07 15-46-34](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/393e95d9-54cf-49ce-bbfa-07542d00d5a4)
+
+## Hotel Details (Uncollapsed view)
+![Screenshot from 2024-04-07 15-47-43](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/f28afb79-138c-4568-85a0-94e0f99ecc70)
+
+## Search Hotel funtionality
+![Screenshot from 2024-04-07 15-48-13](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/16caf63c-dfcb-4eb5-80e0-391464f0ccf4)
+
+![Screenshot from 2024-04-07 15-48-47](https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/ae876fcf-cc90-4d8d-adca-35311714a6f1)
+
+## Mobile View Same functionality
+
+
+https://github.com/Amit-Juneja/HTM-Assignment/assets/30295671/92b57962-90b1-44f8-8353-2d0092ea5bf8
+
+
