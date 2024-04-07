@@ -1,7 +1,12 @@
-import { Box, Typography } from "@mui/material";
+import { Box, TextField, Typography } from "@mui/material";
+import { SetStateAction, useState } from "react";
 import CollectionCard from "./collection-card";
 
 export default function HotelCollection() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const handleSearchInputChange = (event: { target: { value: SetStateAction<string>; }; }) => {
+    setSearchQuery(event.target.value);
+  };
   return (
     <Box
       sx={{
@@ -16,7 +21,14 @@ export default function HotelCollection() {
       <Typography variant="h2">
         Get access to our Hotel Collection
       </Typography>
-      <CollectionCard />
+      <TextField
+        label="Search Hotels"
+        variant="outlined"
+        value={searchQuery}
+        onChange={handleSearchInputChange}
+        sx={{ margin:2, width: "80%" }}
+      />
+      <CollectionCard searchQuery={searchQuery}/>
     </Box>
   );
 }

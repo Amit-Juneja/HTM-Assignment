@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Link } from "@mui/material";
 import Image from "next/image";
 import { ReactElement } from "react";
 import HTMLogo from "../../public/niseko-central-logo.png";
@@ -15,7 +15,9 @@ export default function NavBar(): ReactElement {
         bgcolor: "#222"
       }}
     >
-      <Image src={HTMLogo} alt="Nisenko Central" />
+      <Link href="/">
+        <Image src={HTMLogo} alt="Nisenko Central" />
+      </Link>
     </Box>
   );
 }

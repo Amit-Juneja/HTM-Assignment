@@ -1,5 +1,5 @@
 import useIsDesktop from "@/utils/useIsDesktop";
-import { Box, Typography } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
 import Image from "next/image";
 import { CSSProperties, ReactElement } from "react";
 import LinkedinLogo from "../public/Linkedin.svg";
@@ -15,9 +15,9 @@ export default function Footer(): ReactElement {
   const mainFooter: CSSProperties = {
     backgroundColor: "#222",
     display: "flex",
-    alignItems: isDesktop ? "flex-end": "center",
+    alignItems: isDesktop ? "flex-end" : "center",
     justifyContent: "space-around",
-    flexDirection: isDesktop ? "row": "column",
+    flexDirection: isDesktop ? "row" : "column",
   };
 
   return (
@@ -31,10 +31,12 @@ export default function Footer(): ReactElement {
           pt: 6.5,
         }}
       >
-        <Image
-          src={FooterLogo}
-          alt="Footer Logo"
-        />
+        <Link href="/">
+          <Image
+            src={FooterLogo}
+            alt="Footer Logo"
+          />
+        </Link>
       </Box>
 
       {/* Logo rendered */}
@@ -47,36 +49,46 @@ export default function Footer(): ReactElement {
           gap: 3
         }}
       >
-        <Image
-          src={FacebookLogo}
-          alt="Logo for Facebook Page"
-          width={iconSize}
-          height={iconSize}
-        />
-        <Image
-          src={TwitterLogo}
-          alt="Logo for Twitter Page"
-          width={iconSize}
-          height={iconSize}
-        />
-        <Image
-          src={LinkedinLogo}
-          alt="Logo for LinkedIn Page"
-          width={iconSize}
-          height={iconSize}
-        />
-        <Image
-          src={InstagramLogo}
-          alt="Logo for Instagram Page"
-          width={iconSize}
-          height={iconSize}
-        />
-        <Image
-          src={YoutubeLogo}
-          alt="Logo for Youtube Page"
-          width={iconSize}
-          height={iconSize}
-        />
+        <Link href="https://www.facebook.com/nisekocentral">
+          <Image
+            src={FacebookLogo}
+            alt="Logo for Facebook Page"
+            width={iconSize}
+            height={iconSize}
+          />
+        </Link>
+        <Link href="https://twitter.com/i/flow/login?redirect_after_login=%2Fnisekocentral">
+          <Image
+            src={TwitterLogo}
+            alt="Logo for Twitter Page"
+            width={iconSize}
+            height={iconSize}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/company/hokkaido-tourism-management/">
+          <Image
+            src={LinkedinLogo}
+            alt="Logo for LinkedIn Page"
+            width={iconSize}
+            height={iconSize}
+          />
+        </Link>
+        <Link href="https://www.instagram.com/nisekocentral/">
+          <Image
+            src={InstagramLogo}
+            alt="Logo for Instagram Page"
+            width={iconSize}
+            height={iconSize}
+          />
+        </Link>
+        <Link href="https://www.youtube.com/@hokkaidotourismmanagementh7538">
+          <Image
+            src={YoutubeLogo}
+            alt="Logo for Youtube Page"
+            width={iconSize}
+            height={iconSize}
+          />
+        </Link>
       </Box>
 
       {/* terms & privacy policy */}
@@ -89,18 +101,20 @@ export default function Footer(): ReactElement {
           pb: 4.25,
         }}
       >
-        <Typography
-          sx={{
-            fontFamily: "Matteo",
-            fontWeight: 400,
-            fontSize: "16px",
-            lineHeight: "19px",
-            textDecorationLine: "underline",
-            color: "#FFFFFF",
-          }}
-        >
-          Terms of service
-        </Typography>
+        <Link href="https://www.nisekocentral.com/privacy-policy">
+          <Typography
+            sx={{
+              fontFamily: "Matteo",
+              fontWeight: 400,
+              fontSize: "16px",
+              lineHeight: "19px",
+              textDecorationLine: "underline",
+              color: "#FFFFFF",
+            }}
+          >
+            Terms of service
+          </Typography>
+        </Link>
         <Box
           sx={{
             width: "2px",
@@ -110,18 +124,20 @@ export default function Footer(): ReactElement {
             mr: 1,
           }}
         ></Box>
-        <Typography
-          sx={{
-            fontFamily: "Matteo",
-            fontWeight: 400,
-            fontSize: "16px",
-            lineHeight: "19px",
-            textDecorationLine: "underline",
-            color: "#FFFFFF",
-          }}
-        >
-          Privacy policy
-        </Typography>
+        <Link href="https://www.nisekocentral.com/privacy-policy">
+          <Typography
+            sx={{
+              fontFamily: "Matteo",
+              fontWeight: 400,
+              fontSize: "16px",
+              lineHeight: "19px",
+              textDecorationLine: "underline",
+              color: "#FFFFFF",
+            }}
+          >
+            Privacy policy
+          </Typography>
+        </Link>
       </Box>
     </footer>
   );
